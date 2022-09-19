@@ -19,3 +19,9 @@ test('add is equal to 3', () => {
 test('add is equal to 14', () => {
     expect(add(5,9)).toBe(14)
 } )
+
+describe('Math functions', () => {
+    test('multiply is equal to 50', () => expect(multiply(10,5)).toBe(50))
+    test('divide is equal to 2', () => expect(divide(10,5)).toBe(2))
+    test('subtract is equal to 5', () => expect(subtract(10,5)).toBe(5))
+} )
